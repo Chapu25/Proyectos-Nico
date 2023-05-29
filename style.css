@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* header  */
+
+.header-txt{
+    background: #fd611a;
+    text-align: center;
+}
+
+.header-txt h2{
+    padding: 10px;
+    font-size: 26px;
+    line-height: 26px;
+    color: white;
+}
+
+
+/* menu del logo  */
+
+.menu{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+
+.menu img{
+    width: 230px;
+}
+
+
+/* menu barra busqueda  */
+
+.menu input{
+    width: 450px;
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: unset;
+    position: relative;
+}
+::placeholder{
+    font-size: 16px;
+}
+
+.menu .icon-lupa  i{
+    position: absolute;
+    top: 11.3%;
+    left: 59.2%;
+    font-size: 19px;
+    transform: translateY(-50%);
+}
+
+.menu input:hover{
+    border: 1px solid #fd611a;
+}
+
+
+
+/* menu iniciar sesion */
+
+.menu button{
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background: #fd611a;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+.menu .icon-shop  i{
+    font-size: 19px;
+}
+
+
+/* navbar */
+
+.navbar{
+    background: #fd611a;
+    padding: 20px 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar ul{
+    display: flex;
+    margin: 0px 500px;
+    justify-content: space-around;
+}
+
+.navbar a{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+
+/* carrucel  */
+
+.carrucel-frame{
+    width: 1600px;
+    height: auto;
+    margin: 0px auto 0 ;
+    overflow: hidden;
+}
+
+.carrucel-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: carrucel 16s infinite alternate ;
+}
+
+.carrucel-frame li{
+    width: 100%;
+    list-style: none;
+}
+
+.carrucel-frame img{
+    width: 100%;
+}
+
+@keyframes carrucel{
+
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+/* ultimas-novedades <hr> */
+
+.ultimas-novedades{
+    margin-top: 35px;
+    font-size: 22px;
+}
+
+.ultimas-novedades p {
+    color: rgb(77, 77, 77);
+    margin-bottom: 10px;
+}
+
+
+/* Compus y Torres */
+
+.info{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.info p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.info span{
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: blue;
+}
+
+.info-de-lado{
+    display: flex;
+}
+
+.productos{
+    box-shadow: 1px 2px 10px black;
+    border-radius: 10px;
+    margin: 0px 20px;
+    width: 400%;
+}
+
+
+/* footer */
+
